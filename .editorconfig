@@ -23,8 +23,8 @@ csharp_prefer_simple_using_statement = true:suggestion
 csharp_prefer_braces = true:silent
 
 # General C# style settings conforming to DiGi AI Guidelines
-# 1. Enforce file-scoped namespaces (C# 10+)
-csharp_style_namespace_declarations = file_scoped:warning
+# 1. Enforce block-scoped namespaces (DiGi convention)
+csharp_style_namespace_declarations = block_scoped:warning
 
 # 2. Enforce explicit typing (no 'var' rule)
 csharp_style_var_else = false:warning
